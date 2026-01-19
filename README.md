@@ -68,7 +68,7 @@ The dashboard is divided into **three analytical sections**:
 
 ##  3. Risk Drivers – Predictive Insights
 
-![Risk Drivers Dashboard](http://github.com/Maira-Nawaz/Credit-Risk-ML-Analysis/blob/main/resources/Credit%20Risk%20Analysis_page-0003.jpg)
+![Risk Drivers Dashboard](https://github.com/Maira-Nawaz/Credit-Risk-ML-Analysis/blob/main/resources/Credit%20Risk%20Analysis_page-0003.jpg)
 
 ### Machine Learning Insights:
 - **Average predicted default risk:** 37.9%  
