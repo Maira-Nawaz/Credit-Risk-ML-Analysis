@@ -50,7 +50,7 @@ The dashboard is divided into **three analytical sections**:
 
 ##  2. Risk Profile – Who Is Defaulting?
 
-![Risk Profile Dashboard](images/risk_profile.png)
+![Risk Profile Dashboard](https://github.com/Maira-Nawaz/Credit-Risk-ML-Analysis/blob/main/resources/Credit%20Risk%20Analysis_page-0002.jpg)
 
 ### Key Analyses:
 - Default behavior by **loan purpose and gender**
@@ -68,7 +68,7 @@ The dashboard is divided into **three analytical sections**:
 
 ##  3. Risk Drivers – Predictive Insights
 
-![Risk Drivers Dashboard](images/risk_drivers.png)
+![Risk Drivers Dashboard](http://github.com/Maira-Nawaz/Credit-Risk-ML-Analysis/blob/main/resources/Credit%20Risk%20Analysis_page-0003.jpg)
 
 ### Machine Learning Insights:
 - **Average predicted default risk:** 37.9%  
