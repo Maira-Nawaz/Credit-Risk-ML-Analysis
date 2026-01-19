@@ -184,7 +184,10 @@ This analysis shows that **data-driven credit risk management** can significantl
 
 - Compare Logistic Regression with advanced models (Random Forest, XGBoost)
 - Incorporate **time-based default prediction**
-- Add **model performance metrics** (AUC, precision, recall)
 - Automate risk scoring within a real-time lending pipeline
 
+##  Author
 
+*Maira Nawaz*
+
+[LinkedIn](https://www.linkedin.com/in/mairanawaz/) | [Kaggle](https://www.kaggle.com/mairanawaz) | [Github](https://github.com/Maira-Nawaz)
