@@ -1,8 +1,6 @@
-# 📊 Credit Risk Analytics - Nova Bank
+#  Credit Risk Analytics - Nova Bank
 
-## 🏦 Business Context & Challenge
-
-### Credit Risk Analytics Challenge
+###  Business Context & Challenge
 
 Nova Bank is a digital bank that provides **personal, medical, education, and business loans** across the **USA, UK, and Canada**.
 
@@ -34,7 +32,7 @@ The dashboard is divided into **three analytical sections**:
 
 ##  1. Overview – Portfolio Snapshot
 
-![Overview Dashboard](images/overview.png)
+![Overview Dashboard](https://github.com/Maira-Nawaz/Credit-Risk-ML-Analysis/blob/main/resources/Credit%20Risk%20Analysis_page-0001.jpg)
 
 ### What this page shows:
 - **Total Loan Amount:** 312M  
