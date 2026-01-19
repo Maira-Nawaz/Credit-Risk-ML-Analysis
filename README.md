@@ -109,11 +109,50 @@ Logistic Regression was chosen because:
 - Supports **early intervention strategies**
 
 
+## Conclusion & Final Insights
 
-##  Business Recommendations
+This project demonstrates how combining **descriptive analytics, visual storytelling, and machine learning** can significantly improve credit risk assessment in a banking environment.
 
-- Apply **tighter credit controls** for borrowers with high DTI ratios  
-- Use **risk-based pricing** to balance risk and profitability  
-- Implement **early warning systems** for high-risk loans  
-- Use model insights to **support — not replace — human judgment**
+By analyzing borrower demographics, loan characteristics, and repayment behavior, we uncovered **clear patterns in default risk** and translated them into **actionable insights** for Nova Bank.
+
+### Key Insights Summary
+
+- **Default risk is not evenly distributed** across borrowers; it is strongly influenced by loan grade, debt-to-income ratio, income level, and credit history length.
+- **Higher loan grades (G, F, E)** exhibit substantially higher default rates, while **Grade A loans are consistently safer**.
+- Borrowers with **high debt-to-income ratios** and **lower income levels** are significantly more likely to default.
+- **Home ownership and stable employment** are associated with lower default risk, while renters and unemployed borrowers show higher vulnerability.
+- Certain **loan purposes**, particularly debt consolidation, demonstrate elevated default behavior.
+- The Logistic Regression model aligns well with observed defaults, producing an **average predicted default risk of 37.9%**, confirming its usefulness for early risk detection.
+
+
+
+### Model Value & Interpretability
+
+The **Logistic Regression model** provides transparent and interpretable results, making it well-suited for real-world credit risk applications. Rather than acting as a replacement for human decision-making, the model serves as a **decision-support tool**, highlighting high-risk borrowers early in the loan lifecycle.
+
+
+
+###  Business Impact
+
+These insights enable Nova Bank to:
+- Improve **risk-based pricing strategies**
+- Apply **tighter credit controls** where risk is elevated
+- Introduce **early-warning monitoring systems**
+- Balance **portfolio growth with financial stability**
+- Promote **fairer and more responsible lending decisions**
+
+
+###  Final Takeaway
+
+This analysis shows that **data-driven credit risk management** can significantly enhance lending decisions while maintaining transparency and fairness. By combining **Power BI dashboards** with **machine learning predictions**, financial institutions can proactively manage risk, protect profitability, and better serve their customers.
+
+
+
+### Future Enhancements
+
+- Compare Logistic Regression with advanced models (Random Forest, XGBoost)
+- Incorporate **time-based default prediction**
+- Add **model performance metrics** (AUC, precision, recall)
+- Automate risk scoring within a real-time lending pipeline
+
 
