@@ -103,10 +103,42 @@ Logistic Regression was chosen because:
 - Home ownership  
 - Credit history length  
 
-### Model Output:
-- Predicts **probability of default**
-- Enables segmentation into **risk categories**
-- Supports **early intervention strategies**
+##  Model Performance & Evaluation
+
+The Logistic Regression model was evaluated using standard classification metrics commonly applied in **credit risk modeling**.
+
+###  Performance Metrics
+- **ROC–AUC Score:** **0.8735**
+- **Accuracy:** **82%**
+
+###  Confusion Matrix
+|                | Predicted Non-Default | Predicted Default |
+|----------------|----------------------|------------------|
+| **Actual Non-Default** | 4203 | 892 |
+| **Actual Default**     | 309  | 1113 |
+
+---
+
+### Classification Report
+
+| Class | Precision | Recall | F1-Score | Support |
+|------|-----------|--------|----------|---------|
+| Non-Default (0) | 0.93 | 0.82 | 0.87 | 5095 |
+| Default (1)     | 0.56 | 0.78 | 0.65 | 1422 |
+| **Accuracy** |  |  | **0.82** | 6517 |
+| **Macro Avg** | 0.74 | 0.80 | 0.76 | 6517 |
+| **Weighted Avg** | 0.85 | 0.82 | 0.83 | 6517 |
+
+---
+
+### Interpretation & Key Takeaways
+
+- The **ROC–AUC score of 0.8735** indicates **strong discriminatory power**, meaning the model effectively separates high-risk borrowers from low-risk ones.
+- A recall of **78% for defaulters** shows the model successfully identifies most risky borrowers, which is critical for minimizing financial losses.
+- Lower precision for the default class reflects a **conservative risk strategy**, favoring early detection of potential defaulters even at the cost of some false positives.
+- The overall accuracy of **82%** confirms reliable model performance while maintaining interpretability.
+
+> In credit risk applications, **capturing defaulters (high recall)** is often more important than maximizing precision, making this model suitable for **early risk identification and decision support**.
 
 
 ## Conclusion & Final Insights
